@@ -85,7 +85,6 @@ body {
 		}
 	}
 }
-
 #food {
     background-image: url('./randoms/almamatter.jpg');
     min-height: 100vh;
@@ -144,6 +143,7 @@ button {
     width: 14rem;
     background: #1B651B;
     color: #fff;
+
     &::before {
         content: '';
         position: absolute;
@@ -175,12 +175,13 @@ button {
 	justify-content: center;
 	padding-top: 8rem;
 	padding-bottom: 40rem;
-	padding-left: 5rem;
+	padding-left: 20rem;
 	h2{
-		font-size: 5rem;
+		
+		font-size: 4rem;
         color: #fff; /* Set font color to white */
         text-align: left;
-		padding-left: 5%;
+		padding-left: 0%;
 		padding-top: 2rem;
 		padding-bottom: 2rem;
 	}
@@ -190,12 +191,13 @@ button {
 		border-style: solid;
 		border-radius: 4%;
 		color: #fff;
+		margin-left: 20px;
 	}
 	p{
 		font-size: 2rem;
         color: #000; /* Set font color to white */
 		text-align: justify;
-		padding-left: 5%;
+		padding-left: 0%;
 		padding-right: 20%;
 	}
 }
@@ -207,7 +209,7 @@ button {
 	padding-bottom: 40rem;
 	padding-left: 5rem;
 	h2{
-		font-size: 5rem;
+		font-size: 4rem;
         color: #fff; /* Set font color to white */
         text-align: left;
 		padding-left: 5%;
@@ -221,6 +223,7 @@ button {
 		border-radius: 4%;
 		border-style: solid;
 		color: #fff;
+		margin-left: 2.5vw;
 	}
 	p{
 		font-size: 2rem;
@@ -261,15 +264,15 @@ button {
 		padding-right: 20%;
 	}
 }
-#siomai{
-	background-color: #537B2F;
+#jenni1{
+	background-color: #8DA750;
 	display: flex;
 	justify-content: center;
 	padding-top: 8rem;
 	padding-bottom: 40rem;
 	padding-left: 5rem;
 	h2{
-		font-size: 5rem;
+		font-size: 4rem;
         color: #fff; /* Set font color to white */
         text-align: left;
 		padding-left: 5%;
@@ -282,6 +285,103 @@ button {
 		border-radius: 4%;
 		border-style: solid;
 		color: #fff;
+		margin-left: 2.5vh;
+		
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#jenni2{
+	background-color: #537B2F;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 2.5vh;
+		
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#jenni3{
+	background-color: #8DA750;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 2.5vh;
+		
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#siomai{
+	background-color: #537B2F;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 2.5vh;
 	}
 	p{
 		font-size: 2rem;
@@ -299,7 +399,7 @@ button {
 	padding-bottom: 40rem;
 	padding-left: 5rem;
 	h2{
-		font-size: 5rem;
+		font-size: 4rem;
         color: #fff; /* Set font color to white */
         text-align: left;
 		padding-left: 5%;
@@ -312,6 +412,7 @@ button {
 		border-radius: 4%;
 		border-style: solid;
 		color: #fff;
+		margin-left: 2.5vh;
 	}
 	p{
 		font-size: 2rem;
@@ -329,7 +430,7 @@ button {
 	padding-bottom: 40rem;
 	padding-left: 5rem;
 	h2{
-		font-size: 5rem;
+		font-size: 4rem;
         color: #fff; /* Set font color to white */
         text-align: left;
 		padding-left: 5%;
@@ -342,6 +443,7 @@ button {
 		border-radius: 4%;
 		border-style: solid;
 		color: #fff;
+		margin-left: 2.5vh;
 	}
 	p{
 		font-size: 2rem;
@@ -372,6 +474,7 @@ button {
 		border-radius: 4%;
 		border-style: solid;
 		color: #fff;
+		margin-left: 3.5vh;
 	}
 	p{
 		font-size: 2rem;
@@ -389,7 +492,7 @@ button {
 	padding-bottom: 40rem;
 	padding-left: 5rem;
 	h2{
-		font-size: 5rem;
+		font-size: 4rem;
         color: #fff; /* Set font color to white */
         text-align: left;
 		padding-left: 5%;
@@ -402,6 +505,7 @@ button {
 		border-radius: 4%;
 		border-style: solid;
 		color: #fff;
+		margin-left: 3.5vh;
 	}
 	p{
 		font-size: 2rem;
@@ -419,7 +523,7 @@ button {
 	padding-bottom: 40rem;
 	padding-left: 5rem;
 	h2{
-		font-size: 5rem;
+		font-size: 4rem;
         color: #fff; /* Set font color to white */
         text-align: left;
 		padding-left: 5%;
@@ -432,6 +536,7 @@ button {
 		border-radius: 4%;
 		border-style: solid;
 		color: #fff;
+		margin-left: 3.5vh;
 	}
 	p{
 		font-size: 2rem;
@@ -449,7 +554,7 @@ button {
 	padding-bottom: 40rem;
 	padding-left: 5rem;
 	h2{
-		font-size: 5rem;
+		font-size: 4rem;
         color: #fff; /* Set font color to white */
         text-align: left;
 		padding-left: 5%;
@@ -462,6 +567,7 @@ button {
 		border-radius: 4%;
 		border-style: solid;
 		color: #fff;
+		margin-left: 3.5vh;
 	}
 	p{
 		font-size: 2rem;
@@ -479,7 +585,7 @@ button {
 	padding-bottom: 40rem;
 	padding-left: 5rem;
 	h2{
-		font-size: 5rem;
+		font-size: 4rem;
         color: #fff; /* Set font color to white */
         text-align: left;
 		padding-left: 5%;
@@ -492,6 +598,7 @@ button {
 		border-radius: 4%;
 		border-style: solid;
 		color: #fff;
+		margin-left: 3.5vh;
 	}
 	p{
 		font-size: 2rem;
@@ -509,7 +616,7 @@ button {
 	padding-bottom: 40rem;
 	padding-left: 5rem;
 	h2{
-		font-size: 5rem;
+		font-size: 4rem;
         color: #fff; /* Set font color to white */
         text-align: left;
 		padding-left: 5%;
@@ -522,6 +629,7 @@ button {
 		border-radius: 4%;
 		border-style: solid;
 		color: #fff;
+		margin-left: 3vh;
 	}
 	p{
 		font-size: 2rem;
@@ -539,7 +647,7 @@ button {
 	padding-bottom: 40rem;
 	padding-left: 5rem;
 	h2{
-		font-size: 5rem;
+		font-size: 4rem;
         color: #fff; /* Set font color to white */
         text-align: left;
 		padding-left: 5%;
@@ -552,6 +660,7 @@ button {
 		border-radius: 4%;
 		border-style: solid;
 		color: #fff;
+		margin-left: 3vh;
 	}
 	p{
 		font-size: 2rem;
@@ -811,7 +920,15 @@ button {
     gap: 20px;
 }
 
+.blog-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
 .blog-card {
+    /* Your existing styles for .blog-card */
     background-color: #fff;
     border-radius: 8px;
     border-style: outset;
@@ -826,6 +943,9 @@ button {
     perspective: 1000px;
     cursor: pointer;
 }
+
+/* Add any additional styling as needed */
+
 
 .blog-card:hover {
     transform: scale(1.05);
@@ -884,74 +1004,634 @@ a{
 	overflow: hidden;  /* Hide content that exceeds the box height */
 	position: relative;
 }
+#diriel-vac{
+	background-color: #8DA750;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 3.5%;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-style: solid;
+		border-radius: 4%;
+		color: #fff;
+		margin-left: 20px;
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#lolaaidas-vac{
+	background-color: #537B2F;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+		color: #fff;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 2.5vw;
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#jenni-vac{
+	background-color: #8DA750;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 3.5vh;
+		
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#siomai-vac{
+	background-color: #537B2F;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 3.5vh;
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#lola-vac{
+	background-color: #8DA750;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 3.5vh;
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#pazzyon-vac{
+	background-color: #537B2F;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 3.5vh;
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
 
 .blog-card:hover .blog-content {
     transform: rotateY(0deg);
 }
+#diriel-dent{
+	background-color: #8DA750;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 3.5%;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-style: solid;
+		border-radius: 4%;
+		color: #fff;
+		margin-left: 20px;
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#lolaaidas-dent{
+	background-color: #537B2F;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+		color: #fff;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 2.5vw;
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#jenni-dent{
+	background-color: #8DA750;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 3.5vh;
+		
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#siomai-dent{
+	background-color: #537B2F;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 3rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 3.5vh;
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#lola-dent{
+	background-color: #8DA750;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 2.5vh;
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#pazzyon-dent{
+	background-color: #537B2F;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 3.5vh;
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#unli-dent{
+	background-color: #8DA750;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 5rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 3.5vh;
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#gandas-dent{
+	background-color: #537B2F;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 3.5vh;
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+#bj-dent{
+	background-color: #8DA750;
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 40rem;
+	padding-left: 5rem;
+	h2{
+		font-size: 4rem;
+        color: #fff; /* Set font color to white */
+        text-align: left;
+		padding-left: 5%;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	img{
+		max-width: 365px;
+		height: auto;
+		border-radius: 4%;
+		border-style: solid;
+		color: #fff;
+		margin-left: 3.5vh;
+	}
+	p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 5%;
+		padding-right: 20%;
+	}
+}
+
 
 @media (max-width: 768px) {
-	html {
-		font-size: 40%;
-	}
-	#header {
-		.fa-hamburger {
-			display: block;
-		}
-		nav {
-			position: fixed;
-			top: 0;
-			left: -120%;
-			height: 100vh;
-			width: 35rem;
-			background: #fff;
-			ul {
-				-webkit-box-orient: vertical;
-				-webkit-box-direction: normal;
-				-ms-flex-flow: column;
-				flex-flow: column;
-				-webkit-box-pack: center;
-				-ms-flex-pack: center;
-				justify-content: center;
-				height: 100%;
-				li {
-					margin: 2rem 0;
-					a {
-						font-size: 3.5rem;
-						color: #000;
-						border-radius: 5rem;
-						&:hover {
-							padding: .5rem 7.5rem;
-							color: #333;
-							background: #000;
-							color: #1B651B;
-						}
-					}
-				}
-			}
-		}
-		.nav-toggle {
-			left: 0%;
-		}
-	}
-	#about {
-		.image {
-			text-align: center;
-			img {
-				width: 70vw;
-				max-width: 100%; /* Ensures the image won't exceed its original size */
-				height: auto;   /* Maintains the aspect ratio */
-			}
-		}
-	}
-	#diriel {
-		.image {
-			text-align: center;
-			img {
-				width: 55vw;
-				max-width: 100%; /* Ensures the image won't exceed its original size */
-				height: auto;   /* Maintains the aspect ratio */
-			}
-		}
-	}
+    html {
+        font-size: 40%;
+    }
 
+    #header {
+        .fa-hamburger {
+            display: block;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: -120%;
+            height: 100vh;
+            width: 35rem;
+            background: #fff;
+
+            ul {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-flow: column;
+                flex-flow: column;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                height: 100%;
+
+                li {
+                    margin: 2rem 0;
+
+                    a {
+                        font-size: 3.5rem;
+                        color: #000;
+                        border-radius: 5rem;
+
+                        &:hover {
+                            padding: .5rem 7.5rem;
+                            color: #333;
+                            background: #000;
+                            color: #1B651B;
+                        }
+                    }
+                }
+            }
+        }
+
+        .nav-toggle {
+            left: 0%;
+        }
+    }
+
+    #about, #diriel {
+        .image {
+            text-align: center;
+
+            img {
+                width: 50vw;
+                max-width: 100%; /* Ensures the image won't exceed its original size */
+                height: auto;   /* Maintains the aspect ratio */
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    img {
+        max-width: 100vw; /* Adjust the max-width for smaller screens using vw */
+    }
+}
+
+@media (max-width: 876px) {
+    html {
+        font-size: 40%;
+		
+    }
+	#food
+    p
+    img {
+    max-width: 75%;
+    height: auto;
+    border: #000;
+    border-style: outset;
+}
+    #header {
+        .fa-hamburger {
+            display: block;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            left: -120%;
+            height: 100vh;
+            width: 35rem;
+            background: #fff;
+
+            ul {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-flow: column;
+                flex-flow: column;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                height: 100%;
+
+                li {
+                    margin: 2rem 0;
+
+                    a {
+                        font-size: 3.5rem;
+                        color: #000;
+                        border-radius: 5rem;
+
+                        &:hover {
+                            padding: .5rem 7.5rem;
+                            color: #333;
+                            background: #000;
+                            color: #1B651B;
+                        }
+                    }
+                }
+            }
+        }
+        .nav-toggle {
+            left: 0%;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+	#food .heading h1{
+		font-size: 8rem;
+	}
+	#diriel,#lolaaidas,#jenni,#jenni1,#jenni2,#jenni3,#siomai,#lola,#pazzyon,#unli,#gandas,#bj,#icecream,#bakery,#streetfood,#kakanin,#diriel-vac,#lolaaidas-vac,#jenni-vac,#siomai-vac,#lola-vac,#pazzyon-vac,#diriel-dent,#lolaaidas-dent,#jenni-dent,#siomai-dent,#lola-dent,#pazzyon-dent,#unli-dent,#gandas-dent,#bj-dent {
+	  padding-left: 4rem; /* Adjust the padding for smaller screens */
+	  padding-right: 2rem; /* Adjust the padding for smaller screens */
+	  
+	  h2 {
+		font-size: 3rem; /* Decrease font size for smaller screens */
+		padding-left: 3%; /* Adjust padding for smaller screens */
+		padding-right: 2%; /* Adjust padding for smaller screens */
+	  }
+	  img{
+		align-content: center;
+		max-width: 250px;
+		height: auto;
+		margin-left: 0vh;
+	}
+	  p{
+		font-size: 2rem;
+        color: #000; /* Set font color to white */
+		text-align: justify;
+		padding-left: 10%;		
+	}
+	}
 }
