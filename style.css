@@ -191,8 +191,7 @@ body {
         h1 {
             font-size: 5rem;
             color: #000;
-            padding-top: 6rem;
-            margin-bottom: 2rem;
+            padding-top: 3rem;
             text-align: justify;
             margin-left: 20px; /* Add margin on the left side */
             span {
@@ -756,6 +755,8 @@ p {
 .blog-card:hover .blog-content {
 	transform: rotateY(0deg);
 }
+/* Rest of your CSS */
+
 @media (max-width: 768px) {
 	html {
 		font-size: 40%;
@@ -800,14 +801,21 @@ p {
 			left: 0%;
 		}
 	}
-	#about {
-		.image {
-			text-align: center;
-			img {
-				width: 70vw;
-				max-width: 100%; /* Ensures the image won't exceed its original size */
-				height: auto;   /* Maintains the aspect ratio */
-			}
+	#about .heading h1 {
+		padding-top: 20%;
+		text-align: center;
+		font-size: 4rem;
+	} /* Close this block properly */
+	#about p {
+		text-align: center;
+	}
+	
+	#about .image {
+		text-align: center;
+		img {
+			width: 70vw;
+			max-width: 100%;
+			height: auto;
 		}
 	}
-}
+} /* Close the media query properly */
